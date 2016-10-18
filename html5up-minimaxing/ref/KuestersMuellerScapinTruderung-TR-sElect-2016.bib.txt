@@ -1,0 +1,7 @@
+@techreport{KuestersMuellerScapinTruderung-TR-sElect-2016,
+  author = {Ralf K{\"u}sters and Johannes M{\"u}ller and Enrico Scapin and Tomasz Truderung},
+  title = {sElect: A Lightweight Verifiable Remote Voting System},
+  institution = {Cryptology ePrint Archive, Report 2016/438},
+  note = {Available at \url{http://eprint.iacr.org/2016/438}.},
+  year = 2016,
+}

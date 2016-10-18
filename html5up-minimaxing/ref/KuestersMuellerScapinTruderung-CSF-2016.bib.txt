@@ -1,0 +1,8 @@
+@inproceedings{KuestersMuellerScapinTruderung-CSF-2016,
+  author = {Ralf K{\"u}sters and Johannes M{\"u}ller and Enrico Scapin and Tomasz Truderung},
+  title = {{sElect: A Lightweight Verifiable Remote Voting System}},
+  booktitle = {{IEEE} 29th Computer Security Foundations Symposium ({CSF} 2016)},
+  pages = {341--354},
+  year = {2016},
+  publisher = {IEEE Computer Society},
+}

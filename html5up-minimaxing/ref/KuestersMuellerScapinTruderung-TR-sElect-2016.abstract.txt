@@ -1,0 +1,5 @@
+sElect: A Lightweight Verifiable Remote Voting System
+
+Ralf Kuesters, Johannes Mueller, Enrico Scapin, and Tomasz Truderung
+-------------------------------------------------------------------------------
+Modern remote electronic voting systems, such as the prominent Helios system, are designed to provide vote privacy and verifiability, where, roughly speaking, the latter means that voters can make sure that their votes were actually counted. In this paper, we propose a new practical voting system called sElect (secure/simple elections). This system, which we implemented as a platform independent web-based application, is meant for low-risk elections and is designed to be particularly simple and lightweight in terms of its structure, the cryptography it uses, and the user experience. One of the unique features of sElect is that it supports fully automated verification, which does not require any user interaction and is triggered as soon as a voter looks at the election result. Despite its simplicity, we prove that this system provides a good level of privacy, verifiability, and accountability for low-risk elections.
