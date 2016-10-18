@@ -98,12 +98,18 @@
 						<div class="6u 12u(mobile)">
 							<section>
 								<h2>welcome to sElect</h2>
-								<p>sElect (secure/simple elections) is a remote voting system meant for low-risk elections. 
-								  It is designed to be particularly simple and lightweight in terms of its
-								  structure, its user experience, and the cryptography it uses.
-								<!--  The system combines several concepts, such as verification codes and Chaumian mix nets, in a novel way. --> 
+								<p>
+								sElect is a remote voting system enabling your vote to remain confidential while providing the possibility  
+								to verify that your ballot has been properly counted.
+								<br>   
+								sElect is designed to be particularly simple and lightweight in terms of its structure, its user experience, and the cryptography it uses.
+								<br> 
+								We performed a rigorous cryptographic analysis of the sElect's underlying protocol showing that, despite its simplicity, it enjoys a good level of 
+								<strong>privacy</strong>, <strong>verifiability</strong>, and <strong>accountability</strong>.  	
+								<!--
 								  sElect is not meant to defend against coercion and mostly tries to defend against untrusted or malicious authorities, including
 								inadvertent programming errors or deliberate manipulation of servers, but excluding targeted and sophisticated attacks against voters’ devices.
+								-->
 								</p>
 								<footer class="controls" align="right">
 									<a href="http://demo.select.uni-trier.de" class="button">Try the demo</a>
@@ -117,25 +123,20 @@
 								<p></p>
 								<ul class="big-image-list">
 									<li>
-										<!-- <a href="#"><img src="images/pic3.jpg" alt="" class="left" /></a>  -->
 										<h3>Fully Automated Verification</h3>
-										<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo
-										facilisis amet quis consectetur in, sollicitudin vitae justo. Cras
-										Maecenas eu arcu purus, phasellus fermentum elit.</p>
+										<p>Triggered as soon as the voter looks at the election result, 
+										it performs cryptographic checks to make sure that her vote has been properly counted.</p>
 									</li>
 									<li>
-										<!-- <a href="#"><img src="images/pic4.jpg" alt="" class="left" /></a> -->
 										<h3>Human Verifiability</h3>
-										<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo
-										facilisis amet quis consectetur in, sollicitudin vitae justo. Cras
-										Maecenas eu arcu purus, phasellus fermentum elit.</p>
+										<p>The voter can check whether a verification code she has obtanied when casting her vote
+										appears in the election result along with her choice.</p>
 									</li>
 									<li>
-										<!-- <a href="#"><img src="images/pic5.jpg" alt="" class="left" /></a> -->
-										<h3>Post-quantum cryptography</h3>
-										<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo
-										facilisis amet quis consectetur in, sollicitudin vitae justo. Cras
-										Maecenas eu arcu purus, phasellus fermentum elit.</p>
+										<h3>Simple Cryptography and Design</h3>
+										<p>Unlike other e-voting systems, sElect employs only public key encryption 
+										and digital signature, leaving open the possibility to use post-quantum cryptography, if necessarily. 
+										</p>
 									</li>
 								</ul>
 							</section>
