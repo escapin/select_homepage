@@ -1786,3 +1786,13 @@
 			}
 
 	}
+	
+	/* Custom */
+	@media screen and (max-width: 550px) {
+		#titleBar .title{
+			line-height:34px;
+		}
+		#titleBar {
+			height: 70px;
+		}
+	}
